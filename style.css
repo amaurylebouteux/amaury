@@ -1,0 +1,93 @@
+body {
+	background-color:#424242;
+}
+.page{
+	width:600px;
+	margin:auto;
+	background-color:#ffffff;
+}
+.white{
+	height:2px;
+	background-color:white;
+}
+nav{
+	
+	margin:0 3px -16px 5px;
+	padding:0;
+}
+nav ul{
+	list-style:none;
+	border-top:2px solid #424242;
+	border-bottom: 1px solid #424242;
+	background-color:#424242;	
+	}
+nav ul li{
+	display:inline;
+	text-align:center;
+	margin-right:10px;
+	color:#e0e0e0;	
+	
+}
+.sitename{
+margin-left:-20px;
+}
+.selected{
+	color:#424242;
+	background-color:#e0e0e0;
+	border-top: 2px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+}
+.carousel{
+	height:200px;
+	margin: 0 3px 0 5px;
+	background-color:#eeeeee;
+}
+
+h2{
+	text-align:center;
+	color: #424242;
+}
+
+h2 span{
+	font-size: small;
+	font-weight:normal;
+}
+.fellows{
+	width:600px;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;	
+}
+.fellows article{
+	height:190px;
+	width:180px;
+	background-color:#eeeeee;
+	margin:15px;
+}
+hr{
+	margin-top:75px;
+}
+.contact{
+	text-align:left;
+	margin-left:5px;
+}
+
+form{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+
+input{
+	width:450px;
+	margin-bottom:15px;
+}
+#subject{
+font-weight: bold;
+margin-bottom:8px;
+}
+textarea{
+	width:450px;
+	margin-bottom:10px;
+}	
